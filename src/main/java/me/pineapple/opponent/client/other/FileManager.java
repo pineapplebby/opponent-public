@@ -43,7 +43,7 @@ public class FileManager {
     }
 
     public FileManager() {
-        base = getMkDirectory(getRoot(), "Realth/modules/");
+        base = getMkDirectory(getRoot(), "opponent/modules/");
         for (Module.Category category : Module.Category.values()) {
             getMkDirectory(base, category.name());
         }
