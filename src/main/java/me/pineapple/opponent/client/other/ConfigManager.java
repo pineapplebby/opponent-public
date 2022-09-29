@@ -17,16 +17,16 @@ import java.util.stream.Collectors;
 public class ConfigManager {
 
     public ArrayList<Module> features = new ArrayList<>();
-    public String config = "Realth/config/";
+    public String config = "opponent/config/";
 
     public void loadConfig(String name) {
-        List<File> files = Arrays.stream(Objects.requireNonNull(new File("Realth").listFiles()))
+        List<File> files = Arrays.stream(Objects.requireNonNull(new File("opponent").listFiles()))
                 .filter(File::isDirectory)
                 .collect(Collectors.toList());
-        if (files.contains(new File("Realth/" + "modules" + "/"))) {
-            config = "Realth/" + "modules" + "/";
+        if (files.contains(new File("opponent/" + "modules" + "/"))) {
+            config = "opponent/" + "modules" + "/";
         } else {
-            config = "Realth/modules/";
+            config = "opponent/modules/";
         }
         for(Module feature : this.features) {
             try {
