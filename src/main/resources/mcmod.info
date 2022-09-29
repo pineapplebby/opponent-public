@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "opponent",
+    "name": "opponent",
+    "description": "",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["dotgod.cc"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

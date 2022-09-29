@@ -1,0 +1,30 @@
+{
+  "package": "me.pineapple.opponent.api.mixin.mixins",
+  "refmap": "mixin.refmap.json",
+  "required": true,
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "verbose": false,
+  "mixins": [
+    "AccessorCPacketPlayer",
+    "AccessorCPacketUseEntity",
+    "AccessorEntity",
+    "AccessorPlayerControllerMP",
+    "AccessorRenderManager",
+    "AccessorSPacketChat",
+    "MixinEntity",
+    "MixinGuiNewChat",
+    "MixinEntityPig",
+    "MixinLayerCape",
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinGuiIngameForge",
+    "MixinGuiMainMenu",
+    "MixinMinecraft",
+    "MixinNetworkManager",
+    "MixinPlayerControllerMP",
+    "MixinRenderEnderCrystal",
+    "MixinRenderItem"
+  ]
+}
